@@ -20,7 +20,7 @@ const Calculator = () => {
       <button id="item-1" type="button" onClick={handleClick} className="button">AC</button>
       <button id="item-2" type="button" onClick={handleClick} className="button">+/-</button>
       <button id="item-3" type="button" onClick={handleClick} className="button">%</button>
-      <button id="item-4" type="button" onClick={handleClick} className="button">/</button>
+      <button id="item-4" type="button" onClick={handleClick} className="button">&divide;</button>
       <button id="item-5" type="button" onClick={handleClick} className="button">7</button>
       <button id="item-6" type="button" onClick={handleClick} className="button">8</button>
       <button id="item-7" type="button" onClick={handleClick} className="button">9</button>
