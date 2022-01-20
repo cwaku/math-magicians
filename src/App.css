@@ -4,7 +4,9 @@
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 0;
-  height: 100vh;
+  height: 100%;
+  -webkit-box-shadow: -1px 3px 13px 7px rgba(0, 0, 0, 0.47);
+  box-shadow: -1px 3px 13px 7px rgba(0, 0, 0, 0.47);
 }
 
 #item-0 {
