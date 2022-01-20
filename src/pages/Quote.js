@@ -1,9 +1,13 @@
+import './Quote.css';
+
 function Quote() {
   return (
-    <main style={{ padding: '1rem 0' }}>
+    <main className="quote">
       <p>
         Mathematics is not about numbers, equations, computations, or
-        algorithms: it is about understanding. -William Paul Thurtson
+        algorithms: it is about understanding.
+        <br />
+        -William Paul Thurtson
       </p>
     </main>
   );

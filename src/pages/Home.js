@@ -1,6 +1,8 @@
+import './Home.css';
+
 function Home() {
   return (
-    <main style={{ padding: '1rem 0' }}>
+    <main className="homePage">
       <h2>Welcome to our page</h2>
       <p>
         Far far away, behind the word mountains, far from the countries Vokalia
