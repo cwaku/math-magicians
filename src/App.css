@@ -5,8 +5,8 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 0;
   height: 100%;
-  -webkit-box-shadow: -1px 3px 13px 7px rgba(0,0,0,0.47); 
-box-shadow: -1px 3px 13px 7px rgba(0,0,0,0.47);
+  -webkit-box-shadow: -1px 3px 13px 7px rgba(0, 0, 0, 0.47);
+  box-shadow: -1px 3px 13px 7px rgba(0, 0, 0, 0.47);
 }
 
 #item-0 {
