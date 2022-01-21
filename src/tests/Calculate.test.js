@@ -37,3 +37,59 @@ describe('Calculates 2 + 1 correctly', () => {
     expect(calculate(object, '=').total).toBe('3');
   });
 });
+
+describe('Clicked on operations', () => {
+  test('Clicked on +', () => {
+    const object = {
+      total: '1',
+      next: null,
+      operation: null,
+    };
+    expect(calculate(object, '+').operation).toBe('+');
+  });
+
+  test('Clicked on -', () => {
+    const object = {
+      total: '1',
+      next: null,
+      operation: null,
+    };
+    expect(calculate(object, '-').operation).toBe('-');
+  });
+
+  test('Clicked on x', () => {
+    const object = {
+      total: '1',
+      next: null,
+      operation: null,
+    };
+    expect(calculate(object, 'x').operation).toBe('x');
+  });
+
+  test('Clicked on ÷', () => {
+    const object = {
+      total: '1',
+      next: null,
+      operation: null,
+    };
+    expect(calculate(object, '÷').operation).toBe('÷');
+  });
+
+  test('Clicked on %', () => {
+    const object = {
+      total: '1',
+      next: null,
+      operation: null,
+    };
+    expect(calculate(object, '%').operation).toBe('%');
+  });
+
+  test('Clicked on AC', () => {
+    const object = {
+      total: '1',
+      next: null,
+      operation: null,
+    };
+    expect(calculate(object, 'AC').total).toBe(null);
+  });
+});
