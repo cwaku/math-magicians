@@ -47,7 +47,6 @@ You may also see any lint errors in the console.
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
-You can press the `Enter` key or the letter `a` when watch the usage prompt shows in terminal to run the tests.
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
