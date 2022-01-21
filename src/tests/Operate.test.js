@@ -11,17 +11,14 @@ describe('test the calculator operations', () => {
     const answer = operate(4, 2, 'x');
     expect(answer).toBe('8');
   });
-  
 
   test('Test the divide operation works(÷)', () => {
     const answer = operate(4, 2, '÷');
     expect(answer).toBe('2');
   });
 
-
   test('Test the divide operation works(-)', () => {
     const answer = operate(8, 3, '-');
     expect(answer).toBe('5');
   });
-
 });
