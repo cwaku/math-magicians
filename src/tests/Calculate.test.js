@@ -1,4 +1,4 @@
-import calculate from '../logic/calculate.js';
+import calculate from '../logic/calculate';
 
 describe('Calculates 2 + 1 correctly', () => {
   test('Clicked on 1', () => {
