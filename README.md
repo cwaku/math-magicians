@@ -14,6 +14,13 @@
 - React
 - Redux
 
+## Deployed On
+
+#### Click on these bagdes to see the deployed 
+[![](https://img.shields.io/badge/Deployed-Netlify-blueviolet)](https://flamboyant-feynman-1a516f.netlify.app)
+
+[![](https://img.shields.io/badge/Deployed-Heroku-blueviolet)](https://math-magicians-ricky.herokuapp.com/)
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
